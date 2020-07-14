@@ -1,14 +1,15 @@
-# An Introduction to Graph Neural Networks
+# Tutorials on Machine Learning for Graphs
 
 ## Contributors
  
 * Payal Chandak (payal.chandak@columbia.edu)
+* Haoxin Li (haoxin_li@hsph.harvard.edu)
 
 ## Overview
 
 Graph neural networks (GNN) provide a powerful tool to learn representations from any arbitrary graph structure by leveraging local network neighborhoods. These tutorials aim to:
   1. Introduce the concept of graph neural networks.
-  2. Discuss the quatitative motivation behind different GNN architectures.
+  2. Discuss the theoretical motivation behind different GNN architectures.
   3. Implement these architectures using the PyTorch Geometric library. 
   4. Apply the architectures to key prediction problems on interconnected data in science and medicine. 
 
