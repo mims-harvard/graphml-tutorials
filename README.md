@@ -1,8 +1,9 @@
-# An Introduction to Graph Neural Networks
+# Tutorials on Graph Neural Networks
 
 ## Contributors
  
 * Payal Chandak (payal.chandak@columbia.edu)
+* Haoxin Li (haoxin_li@hsph.harvard.edu)
 
 ## Overview
 
