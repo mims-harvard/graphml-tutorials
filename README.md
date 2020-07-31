@@ -27,7 +27,7 @@ Recent versions of NumPy, PyTorch, PyTorch Geometric and Jupyter are required. A
 1. `git clone https://github.com/mims-harvard/graphml-tutorials.git`
 2. `cd graphml-tutorials`
 3. `conda env create -f environment.yml`
-4. `conda active graphml_venv`
+4. `conda activate graphml_venv`
 
 ## Contributing
 
