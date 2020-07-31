@@ -25,7 +25,7 @@ Where '<data_path>' is path to pickle file of pretraining data, '<wiener_index_p
 
 For example:
 ~~~~
-python model.py -Ts -f data/5000_mols.pickle datat/wiener_idx.npy data/hyper_wiener_idx.npy data/zagreb_idx.npy
+python model.py -Ts -f data/5000_mols.pickle data/wiener_idx.npy data/hyper_wiener_idx.npy data/zagreb_idx.npy
 ~~~~
 
 ## Finetuning <a name="finetuning"></a>
