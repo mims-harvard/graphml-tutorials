@@ -11,7 +11,7 @@ This tutorial consists of i) Pretraining with multi regression task on topologic
 
 ## Data <a name="data"></a>
 For pretraining, we use Aurora Fine Chemicals LLC database [Aurora Fine Chemicals LLC database](https://aurorafinechemicals.com) available on PubChem which has 34,304,433 molecules. Because this is a tutorial purpose, we used a small subset, 5000, of the original data. However, in real practice user should use a much larger data size than 5000 for pretraining purpose. It should be at least larger than the finetuning task data size. 
-For finetuning, we directly use E.Coli dataset from <https://github.com/yangkevin2/coronavirus_data/blob/master/splits.zip> Note that train, validation, test splits have already been specified in the linked repository. 
+For finetuning, we directly use E.Coli dataset from <https://github.com/yangkevin2/coronavirus_data/blob/master/data/ecoli.csv>  Note that train, validation, test splits have already been specified in the linked repository. 
 
 
 ## Pretraining <a name="pretraining"></a>
@@ -39,7 +39,7 @@ Where '<data_path>' is path to CSV file of the dataset.
 
 For example:
 ~~~
-python finetuning.py -F -f data/splits/ecoli_scaffold/train.csv data/splits/ecoli_scaffold/dev.csv data/splits/ecoli_scaffold/test.csv 
+python finetuning.py -F -f data/ecoli.csv
 ~~~
 
 ## Model Variants <a name="model_variants"></a>
