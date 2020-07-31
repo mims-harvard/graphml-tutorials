@@ -21,8 +21,12 @@ To start, download and open `01-intro/gnn-intro.html`. To run the code and edit,
 
 Recent versions of NumPy, PyTorch, PyTorch Geometric and Jupyter are required. All the required packages can be installed using the following command: 
 
-    $ pip install -r requirements.txt
+## Installation 
 
+1. git clone https://github.com/mims-harvard/graphml-tutorials.git
+2. cd graphml-tutorials
+3. conda env create -f environment.yml
+4. conda active graphml_venv
 
 ## Contributing
 
