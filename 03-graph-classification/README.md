@@ -16,7 +16,7 @@ For finetuning, we directly use E.Coli dataset from <https://github.com/yangkevi
 
 ## Pretraining <a name="pretraining"></a>
 <img src="wiener_index.png" width = 400>
-Above figure show that there is a clear difference between true positive and negative distributions, although the difference may be insignificant. Even though the difference is small and may be insignificant (we did not run t-test t confirm this), some signal, although a weak one, may exist. 
+Above figure show that there is a clear difference between true positive and negative distributions, although the difference may be insignificant. Even though the difference is small and may be insignificant (we did not run t-test to confirm this), some signal, although a weak one, may exist. 
 
 To pretrain and save the model, run:
 ~~~~
@@ -44,5 +44,5 @@ python finetuning.py -lF -f data/ecoli.csv
 ~~~
 
 ## Model Variants <a name="model_variants"></a>
- In this tutorial, during finetuning phase we retrain the entire neural network (i.e., shared layers’ parameters + output layer’s parameters). However, if the primary, property prediction, task data is very small, user can also only re train on the last output layer. Additionally, the choice of the topological indices, {wiener index, hyper wiener index, zagreb index}, and the number of the topological indices (in this case, 3) was arbitrary. It is most likely better to choose the set of topological indices that correllate with different chemical properties. User may experiment with different number and different set of topological indices. 
+ In this tutorial, during finetuning phase we retrain the entire neural network (i.e., shared layers’ parameters + output layer’s parameters). However, if the primary, property prediction, task data is very small, user can also only re train on the last output layer. Additionally, the choice of the topological indices, {wiener index, hyper wiener index, zagreb index}, and the number of the topological indices (in this case, 3) was arbitrary. It is most likely better to choose the set of topological indices that correlate with different chemical properties. User may experiment with different number and different set of topological indices. 
 
