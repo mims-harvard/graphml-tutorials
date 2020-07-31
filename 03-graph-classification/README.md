@@ -15,6 +15,7 @@ For pretraining, we use Aurora Fine Chemicals LLC database [Aurora Fine Chemical
 For finetuning, we directly use E.Coli dataset from <https://github.com/yangkevin2/coronavirus_data/blob/master/data/ecoli.csv> .
 
 ## Pretraining <a name="pretraining"></a>
+![wiener index](wiener_index.png)
 Figure 1 shows that there is a clear difference between true positive and negative distributions, although the difference may be insignificant. Even though the difference is small and may be insignificant (we did not run t-test t confirm this), some signal, although a weak one, may exist. 
 
 To pretrain and save the model, run:
