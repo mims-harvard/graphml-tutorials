@@ -4,6 +4,7 @@
  
 * Payal Chandak (payal.chandak@columbia.edu)
 * Haoxin Li (haoxin_li@hsph.harvard.edu)
+* Min Jean Cho (min_jean_cho@brown.edu)
 
 ## Overview
 
@@ -23,10 +24,10 @@ Recent versions of NumPy, PyTorch, PyTorch Geometric and Jupyter are required. A
 
 ## Installation 
 
-1. git clone https://github.com/mims-harvard/graphml-tutorials.git
-2. cd graphml-tutorials
-3. conda env create -f environment.yml
-4. conda active graphml_venv
+1. `git clone https://github.com/mims-harvard/graphml-tutorials.git`
+2. `cd graphml-tutorials`
+3. `conda env create -f environment.yml`
+4. `conda active graphml_venv`
 
 ## Contributing
 
