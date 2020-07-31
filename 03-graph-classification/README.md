@@ -1,6 +1,7 @@
 # Transfer Learning for Molecular Property Prediction 
+[Min Jean Cho](min_jean_cho@brown.edu)
 
-This tutorial consists of i) Pretraining with multi regression task on topological indices; ii) Finetuning for property prediction task. We use transfer learning because data for the primary, property prediction, task is usually highly imbalanced. In other words, there is an abundance of data with label 0 and lack of data with label 1. In order to overcome this class imbalance, we pretrain with multi regression task on prediction three set of topological indices, {wiener index, hyper wiener index, zagreb index}. Studies have found that there is a strong correlation between molecular topology and chemical properties such as boiling point, toxicity. For example, wiener index is highly correlated with boiling point. To transfer the model to property prediction task, we simply remove the last  output layer of the pretrained neural network and replace with  a new output layer. Because pretraining on multi regression task on topological indices is self supervised learning, it is also useful for large, unlabeled molecule data.  
+This tutorial consists of i) Pretraining with multi regression task on topological indices; ii) Finetuning for property prediction task. We use transfer learning because data for the primary, property prediction, task is usually highly imbalanced. In other words, there is an abundance of data with label 0 and lack of data with label 1. In order to overcome this class imbalance, we pretrain with multi regression task on predicting three set of topological indices, {wiener index, hyper wiener index, zagreb index}. Studies have found that there is a strong correlation between molecular topology and chemical properties such as boiling point, toxicity. For example, wiener index is highly correlated with boiling point. To transfer the model to property prediction task, we simply remove the last  output layer of the pretrained neural network and replace with  a new output layer. Because pretraining on multi regression task on topological indices is self supervised learning, it is also useful for large, unlabeled molecule data.  
 
 ## Table of Contents
 
@@ -38,7 +39,7 @@ Where `<data_path>` is path to CSV file of the dataset.
 
 For example:
 ~~~
-python finetuning.py -F -f data/ecoli.csv
+python finetuning.py -lF -f data/ecoli.csv
 ~~~
 
 ## Model Variants <a name="model_variants"></a>
