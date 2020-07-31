@@ -21,7 +21,7 @@ To pretrain and save the model, run:
 ~~~~
 python pretrain.py -Ts -f <data_path> <wiener_index_path> <hyper_wiener_index_path> <zagreb_index_path>
 ~~~~
-Where ' <data_path> ' is path to pickle file of pretraining data, '<wiener_index_path>', '<hyper_wiener_index_path>',  '<zagreb_index_path>' is path to .npy file of computed wiener index, hyper wiener index, zagreb index respectively. 
+Where `<data_path>` is path to pickle file of pretraining data, `<wiener_index_path>`, `<hyper_wiener_index_path>`,  `<zagreb_index_path>` is path to .npy file of computed wiener index, hyper wiener index, zagreb index respectively. 
 
 For example:
 ~~~~
@@ -35,7 +35,7 @@ To load pretrained model and finetune, run:
 ~~~
 python finetuning.py -lF -f <data path> 
 ~~~
-Where '<data_path>' is path to CSV file of the dataset. 
+Where `<data_path>` is path to CSV file of the dataset. 
 
 For example:
 ~~~
