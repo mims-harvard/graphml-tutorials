@@ -1,22 +1,23 @@
-# Tutorials on Machine Learning for Graphs
+# Tutorials for Machine Learning on Graphs
+
+![graph-ML](./graphML.png)
 
 ## Contributors
  
 * Payal Chandak (payal.chandak@columbia.edu)
 * Haoxin Li (haoxin_li@hsph.harvard.edu)
 * Min Jean Cho (min_jean_cho@brown.edu)
+* Pavlin Policar (pavlin.g.p@gmail.com)
+* Marinka Zitnik (marinka@hms.harvard.edu)
 
 ## Overview
 
-Graph neural networks (GNN) provide a powerful tool to learn representations from any arbitrary graph structure by leveraging local network neighborhoods. These tutorials aim to:
-  1. Introduce the concept of graph neural networks.
+Graph machine learning provides a powerful toolbox to learn representations from any arbitrary graph structure and use learned representations for a variety of downstream tasks. These tutorials aim to:
+  1. Introduce the concept of graph neural networks (GNNs).
   2. Discuss the theoretical motivation behind different GNN architectures.
   3. Provide implementations of these architectures. 
-  4. Apply the architectures to key prediction problems on interconnected data in science and medicine. 
-
-## Usage
-
-To start, download and open `01-intro/gnn-intro.html`. To run the code and edit, download and open the `01-intro/gnn-intro.ipynb`. 
+  4. Apply the architectures to key prediction problems on interconnected data in science and medicine.
+  5. Provide end-to-end real-world examples of graph machine learning.  
 
 ## Requirements
 
