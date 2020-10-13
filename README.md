@@ -7,7 +7,7 @@
 * Payal Chandak (payal.chandak@columbia.edu)
 * Haoxin Li (haoxin_li@hsph.harvard.edu)
 * Min Jean Cho (min_jean_cho@brown.edu)
-* Pavlin Policar (pavlin.g.p@gmail.com)
+* Pavlin Policar (pavlin.policar@fri.uni-lj.si)
 * Marinka Zitnik (marinka@hms.harvard.edu)
 
 ## Overview
