@@ -1,0 +1,26 @@
+name: Run Dependency Test
+on:
+  push:
+    branches:
+      - master
+    pull_request:
+      branches:
+        - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: conda-incubator/setup-miniconda@v1
+        with:
+          auto-update-conda: true
+          miniconda-version: 'latest'
+      - name: Conda Env Install
+        shell: bash -l {0}
+        run: ./install.sh
+      - name: Run tests
+        shell: bash -l {0}
+        run: |
+          conda activate graphml-venv
+          pytest .tests
