@@ -1,5 +1,5 @@
 # Tutorials for Machine Learning on Graphs
-
+https://img.shields.io/github/workflow/status/mims-harvard/graphml-tutorials/Run%20Dependency%20Test?logo=Python&logoColor=%23EE4C2C&style=flat-square
 ![graph-ML](./graphML.png)
 
 ## Contributors
@@ -8,6 +8,7 @@
 - Haoxin Li (haoxin_li@hsph.harvard.edu)
 - Min Jean Cho (min_jean_cho@brown.edu)
 - Pavlin Policar (pavlin.policar@fri.uni-lj.si)
+- Mert Erden (mert.erden@tufts.edu)
 - Marinka Zitnik (marinka@hms.harvard.edu)
 
 ## Overview
