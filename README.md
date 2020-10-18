@@ -1,5 +1,5 @@
 # Tutorials for Machine Learning on Graphs
-https://img.shields.io/github/workflow/status/mims-harvard/graphml-tutorials/Run%20Dependency%20Test?logo=Python&logoColor=%23EE4C2C&style=flat-square
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/mims-harvard/graphml-tutorials/Run%20Dependency%20Test?logo=Python&logoColor=%23EE4C2C&style=flat-square)
 ![graph-ML](./graphML.png)
 
 ## Contributors
