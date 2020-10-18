@@ -1,6 +1,6 @@
 # Tutorials for Machine Learning on Graphs
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/mims-harvard/graphml-tutorials/Run%20Dependency%20Test?logo=Python&logoColor=%23EE4C2C&style=flat-square)
-![graph-ML](./graphML.png)
+
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/mims-harvard/graphml-tutorials/Run%20Dependency%20Test?logo=Python&logoColor=%23EE4C2C&style=flat)
 
 ## Contributors
 
@@ -21,11 +21,15 @@ Graph machine learning provides a powerful toolbox to learn representations from
 4. Apply the architectures to key prediction problems on interconnected data in science and medicine.
 5. Provide end-to-end real-world examples of graph machine learning.
 
+![graph-ML](./graphML.png)
+
 ## Requirements
 
-Recent versions of NumPy, PyTorch, PyTorch Geometric and Jupyter are required. All the required packages can be installed using the following command:
+Recent versions of NumPy, PyTorch, PyTorch Geometric and Jupyter are required. 
 
 ## Installation
+
+All the required packages can be installed using the following commands:
 
 1. `git clone https://github.com/mims-harvard/graphml-tutorials.git`
 2. `cd graphml-tutorials`
