@@ -35,13 +35,20 @@ elif [ "$CUDA" = "10.1" ]; then
 elif [ "$CUDA" = "10.0" ]; then
     CUDA="cu100";
     conda install -c dglteam dgl-cuda10.0;
+elif [ "$CUDA" = "11.0" ]; then
+    CUDA="cu110";
+    conda install -c dglteam dgl-cuda11.0;
 fi
 
 # Below is to ensure we have the correct version of Pytorch Installed
-pip install torch-scatter==latest+"$CUDA" -f https://pytorch-geometric.com/whl/torch-"$TORCH".html > /dev/null
-pip install torch-sparse==latest+"$CUDA" -f https://pytorch-geometric.com/whl/torch-"$TORCH".html > /dev/null
-pip install torch-cluster==latest+"$CUDA" -f https://pytorch-geometric.com/whl/torch-"$TORCH".html > /dev/null
-pip install torch-spline-conv==latest+"$CUDA" -f https://pytorch-geometric.com/whl/torch-"$TORCH".html > /dev/null
+#pip install torch-scatter==latest+"$CUDA" -f https://pytorch-geometric.com/whl/torch-"$TORCH".html > /dev/null
+#pip install torch-sparse==latest+"$CUDA" -f https://pytorch-geometric.com/whl/torch-"$TORCH".html > /dev/null
+#pip install torch-cluster==latest+"$CUDA" -f https://pytorch-geometric.com/whl/torch-"$TORCH".html > /dev/null
+#pip install torch-spline-conv==latest+"$CUDA" -f https://pytorch-geometric.com/whl/torch-"$TORCH".html > /dev/null
+pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
+pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
+pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
+pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
 pip install torch-geometric > /dev/null
 
 echo "Installation Successful"
