@@ -11,11 +11,11 @@ conda install -c conda-forge jupyterlab
 case $(uname | tr '[:upper:]' '[:lower:]') in
   linux*)
     echo "LINUX"
-    conda install pytorch torchvision cudatoolkit -c pytorch
+    conda install pytorch==1.7.0 torchvision cudatoolkit -c pytorch
     ;;
   darwin*)
     echo "OSX"
-    conda install pytorch torchvision -c pytorch
+    conda install pytorch==1.7.0 torchvision -c pytorch
     ;;
   *)
       exit 1
@@ -41,10 +41,6 @@ elif [ "$CUDA" = "11.0" ]; then
 fi
 
 # Below is to ensure we have the correct version of Pytorch Installed
-#pip install torch-scatter==latest+"$CUDA" -f https://pytorch-geometric.com/whl/torch-"$TORCH".html > /dev/null
-#pip install torch-sparse==latest+"$CUDA" -f https://pytorch-geometric.com/whl/torch-"$TORCH".html > /dev/null
-#pip install torch-cluster==latest+"$CUDA" -f https://pytorch-geometric.com/whl/torch-"$TORCH".html > /dev/null
-#pip install torch-spline-conv==latest+"$CUDA" -f https://pytorch-geometric.com/whl/torch-"$TORCH".html > /dev/null
 pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
 pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
 pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html

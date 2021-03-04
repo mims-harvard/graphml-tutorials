@@ -9,6 +9,7 @@
 - Min Jean Cho (min_jean_cho@brown.edu)
 - Pavlin Policar (pavlin.policar@fri.uni-lj.si)
 - Mert Erden (mert.erden@tufts.edu)
+- Steffan Paul (steffanpaul@g.harvard.edu)
 - Marinka Zitnik (marinka@hms.harvard.edu)
 
 ## Overview
