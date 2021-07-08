@@ -4,7 +4,7 @@
 
 ## Contributors
 
-- Payal Chandak (payal.chandak@columbia.edu)
+- Payal Chandak (chandak@mit.edu)
 - Haoxin Li (haoxin_li@hsph.harvard.edu)
 - Min Jean Cho (min_jean_cho@brown.edu)
 - Pavlin Policar (pavlin.policar@fri.uni-lj.si)
